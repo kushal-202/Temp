@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - CompanyName</title>
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">CompanyName</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/services.html">Services</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+        <button class="mobile-menu" aria-label="Menu">☰</button>
+    </nav>
+
+    <main class="container">
+        <h1 class="page-title">About Us</h1>
+        <section class="about-content animate-fade-up">
+            <h2>Our Story</h2>
+            <p>We are passionate about delivering exceptional solutions...</p>
+            <h2>Our Mission</h2>
+            <p>To empower businesses through innovative technology...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CompanyName. All rights reserved.</p>
+    </footer>
+
+    <script type="module">
+        import { initNavigation } from '/js/navigation.js';
+        import { initAnimations } from '/js/animations.js';
+        
+        initNavigation();
+        initAnimations();
+    </script>
+</body>
+</html>
